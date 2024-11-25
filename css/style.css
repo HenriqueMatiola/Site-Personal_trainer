@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Teko:wght@300..700&family=Unica+One&display=swap');
+
+/*Reset do CSS*/
+* {
+    Margin: 0px;
+    Padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+}
+
+/*Area de navegação*/
+.navbar {
+    background-color: #1C1C1C;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+}
+
+/*logo navbar*/
+#logo {
+    width: 10%;
+}
+
+/* menu:Home, SObre e metódos*/
+nav>ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    gap: 30px;
+    margin: 0px 30px;
+    font-family: "Unica One", sans-serif;
+    font-size: 1.5rem;
+    justify-content: end;
+}
+
+/*Links de navegação e dos botões*/
+a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+/*Configuração padrão dos parágrafos do site: branco*/
+.escrita {
+    color: white;
+    font-family: "inter", sans-serif;
+    margin: 0px 200px 0px 200px;
+}
+
+/*Configuração padrão dos parágrafos do site: preto*/
+.escrita2 {
+    color: rgb(0, 0, 0);
+    font-family: "inter", sans-serif;
+    margin: 0px 200px 0px 200px;
+}
+
+/*Configuração padrão dos títulos do site: branco*/
+.titulo-secundario {
+    text-transform: uppercase;
+    font-family: "teko", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    
+}
+
+/*Configuração padrão dos títulos do site: preto*/
+.titulo-secundario2 {
+    color: black;
+    text-transform: uppercase;
+    font-family: "teko", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/*Interação ao passar o cursor por cima*/
+.menu :hover {
+    text-decoration: underline;
+    color: #008C37;
+}
+
+/*Imagem principal do site*/
+#hero {
+    width: 100%;
+    background-image: url("../img/header.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -100px;
+}
+
+header{
+    background-color: #e1e1e9;
+}
+
+/*container da copy, h1 e paragrafo*/
+#copy-hero {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 200px;
+    padding: 200px 0px;
+}
+
+/*H1 da copy*/
+.titulo-hero {
+    font-family: "teko", sans-serif;
+    font-weight: 200;
+    font-size: 5rem;
+    line-height: 70px;
+}
+
+/*parágrafo da copy*/
+.p-copy {
+    margin: 0px 0px 0px 200px;
+    max-width: 45%;
+    display: block;
+}
+
+strong {
+    display: block;
+}
+
+/*Configuração padrão do botão*/
+.botao_especialista {
+    text-transform: uppercase;
+    background-color: #008C37;
+    color: white;
+    border-radius: 9px;
+    height: 40px;
+    width: 300px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao-header{
+    margin: 10px 0px 0px 200px;
+    width: 300px;
+}
+
+/*Container que contem: h3, p e div*/
+.container-sobre {
+    background-color: #e1e1e9;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.escrita-sobre{
+    max-width: 350px;
+    margin: 0px;
+}
+
+/*Título da desction SOBRE*/
+.titulo-sobre {
+    margin: 90px 0px 30px 00px;
+}
+
+/*Foto da section sobre*/
+.foto-sobre {
+    background-image: url("../img/apresentacao.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    margin: 90px 0px;
+}
+
+#sobre{
+    width: 500px;
+}
+
+/*Container que contem: h3, p e div*/
+.container-conteudo {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Título da section conteudo*/
+.container-conteudo h3 {
+    margin: 90px 0px 30px 0px;
+}
+
+/*Parágrafo da section conteúdo*/
+.container-conteudo p {
+    margin: 0px 200px 10px 200px;
+}
+
+.container-conteudo a {
+    width: 50%;
+    text-align: center;
+}
+
+.lista-conteudo {
+    line-height: 25px;
+}
+
+/*Container que contem: h3,
+p, h4 e article*/
+.container-planos {
+    background-color: #e1e1e9;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+/*Titulo da section*/
+.container-planos h3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 90px 0px 0px 0px;
+    font-size: 3rem;
+}
+
+/*Container consultoria online*/
+.online{
+    background-color: black;
+    width: 526px;
+    height: 300px;
+    margin: 0px 0px 30px 00px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 10px black;
+}
+
+/*Container consultoria presencial*/
+.presencial{
+    background-color: #008C37;
+    width: 526px;
+    height: 300px;
+    margin: 0px 00px 30px 0px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 10px black;
+}
+
+/*Titulo dos containers*/
+.container-planos h4 {
+    color: white;
+    font-family: "Unica One", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+/*Parágrafos dos containers*/
+.container-planos p {
+    margin: 0px;
+    padding: 40px;
+}
+
+.container-alunos {
+    background-color: black;
+    height: 870px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.container-alunos div{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 200px;
+    background-color: black;
+}
+
+.container-alunos img{
+    width: 50%;
+}
+
+.container-alunos h3{
+    width: 100%;
+    margin: 90px 0px;
+}
+
+.container-alunos button{
+    width: 100px;
+    height: 100px;
+    
+}
+
+#btnAvancar{
+    background-color: black;
+    border: none;
+    background-image: url("../img/arrow_right_fill.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#btnVoltar{
+    background-color: black;
+    border:none;
+    background-image: url("../img/arrow_left_fill.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container-alunos a{
+    width: 500px;
+}
+
+#moldura{
+    width: 500px;
+    height: 500px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+    height: 200px;
+    
+}
+
+/*MEDIA QUERY*/
+
+@media (max-width:987px){
+
+    .titulo-hero{
+    margin-left: 50px;
+    }
+
+    .p-copy{
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    #copy-hero{
+        padding: 150px 0px 0px 0px;
+        margin: 50px 0px 0px 0px;
+        width: 100%;
+    }
+    
+    .titulo-hero{
+        font-size: 2.2rem;
+        line-height: 40px;
+    }
+
+    .botao-header{
+        margin-left: 50px;
+    }
+    
+    .foto-sobre{
+        justify-content: center;
+    }
+
+    .container-conteudo p{
+        margin: 20px;
+    }
+
+    .lista-conteudo{
+        margin: 30px;
+    }
+
+    /* #moldura{
+    width: 600px;
+    height: 500px; */
+}
+
+@media (max-width:597px) {
+    #copy-hero{
+        background-image: url("../img/header.jpg");
+        background-size: 100%;
+    }
+}
