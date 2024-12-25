@@ -7,3 +7,6 @@
       2° - Contrato assinado, hora de montar o designer do site e coletar imagens com o contratante. Para fazer o layout, utilizamos o FIGMA, ele ainda não tinha uma logo, então aproveitamos e criamos;
       3° Designer feito, hora de colocar a mão no código. Fizemos o site o mais próximo possível do designer, deixamos o mesmo responsivel com computadores e celulares de diversos tamanhos.
       
+
+
+https://lucascardosopersonal.netlify.app
